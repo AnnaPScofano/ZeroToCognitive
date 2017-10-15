@@ -1,10 +1,11 @@
 applications:
 - path: .
-  memory: 128M
+  memory: 256M
   instances: 1
   domain: mybluemix.net
-  name: Z2C
-  host: Z2C
+  name: 7551-textspeech
+  host: 7551-textspeech
   disk_quota: 1024M
   services:
-    - Speech to Text-xx
+    - 7550-SpeechToText
+    - 7551-TextToSpeech
