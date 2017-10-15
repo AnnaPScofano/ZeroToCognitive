@@ -1,9 +1,9 @@
 @CHARSET "UTF-8";
 
 .mic_disabled {
-	opacity: 0.7
+	opacity: 0.6
 }
-.tutorial {background: #D0D0D0; color: #404040;}
+.tutorial {background: #E4E4E4; color: #404040;}
 
 .navbar {
   margin-bottom: 0px;
@@ -11,7 +11,7 @@
 .speech-only {
 	height: 5.0em;
 	overflow: scroll;
-	color: #0000AA;
+	color: #000000;
 	background-color: white;
 	opacity: 0.3;
 	font-size: 1.5em
@@ -19,7 +19,7 @@
 .text-only {
 	wrap: soft;
 	background-color: transparent;
-	color: #008571;
+	color: #000000;
 	font-size: 1.15em
 }
 tr.hideRow {display: none;}
@@ -27,8 +27,8 @@ tr.hideRow {display: none;}
 	height: 95vh;
 	width: 480px;
 	position: absolute;
-	left: 5;
-	top: 30;
+	left: 95;
+	top: 35;
 }
 .analyze_container{
 	height: 95vh;
@@ -59,9 +59,9 @@ tr.hideRow {display: none;}
 	color: #008571;
 	overflow: scroll;
 }
-.cover h1, .cover .h1 { font-size: 3em;}
+.cover h1, .cover .h1 { font-size: 2em;}
 .cover .navbar { background-color: #000000;}
-.h2 {font-size: 2em;}
+.h2 {font-size: 1em;}
 .col-md-6 {width: 470px;}
 .mic_enabled {
 	opacity: 1;
