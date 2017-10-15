@@ -35,9 +35,11 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.set('appName', 'z2c-chapter03');
 // disable the following line in Bluemix. App will start on port 6003 in Bluemix
-app.set('port', process.env.PORT || 6003);
+// para poder rodar no bluemix comentar a linha abaixo, caso contrário se rodar local tirar comentário
+// app.set('port', process.env.PORT || 6003);
 // enable the following line in Bluemix
-// app.set('port', appEnv.port);
+// para poder rodar no Bluemix tirar comentário da linha abaixo, caso contrário se rodar local colocar comentário
+app.set('port', appEnv.port);
 
 app.set('views', path.join(__dirname + '/HTML'));
 app.engine('html', require('ejs').renderFile);

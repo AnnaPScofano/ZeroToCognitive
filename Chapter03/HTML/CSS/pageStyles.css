@@ -3,7 +3,7 @@
 .mic_disabled {
 	opacity: 0.7
 }
-.tutorial {background: #040404; color: #D0D0D0;}
+.tutorial {background: #D0D0D0; color: #040404;}
 
 .navbar {
   margin-bottom: 0px;
@@ -54,9 +54,9 @@ tr.hideRow {display: none;}
 	color: #008571;
 	overflow: scroll;
 }
-.cover h1, .cover .h1 { font-size: 3em;}
+.cover h1, .cover .h1 { font-size: 2em;}
 .cover .navbar { background-color: #000000;}
-.h2 {font-size: 2em;}
+.h2 {font-size: 1em;}
 .col-md-6 {width: 470px;}
 .mic_enabled {
 	opacity: 1;
