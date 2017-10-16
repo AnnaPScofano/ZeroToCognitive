@@ -15,7 +15,7 @@
  */
 // Watson dialog
 var customDialog = {};
-customDialog['initialize'] = {type: 'talk', next: 'start', message: "Hi, my name is Watson. What's your name?"};
+customDialog['initialize'] = {type: 'talk', next: 'start', message: "Oi! Eu sou o Orion e qual o seu nome?"};
 customDialog['start'] = {type: 'listen', next: 'name'};
 customDialog['name'] = {type: 'talk', next: 'actionAsk', message: "Hi {0}, how can I help you today?"};
 customDialog['actionAsk'] = {type: 'listen', next: 'actionSelect'};
